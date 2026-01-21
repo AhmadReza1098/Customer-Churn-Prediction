@@ -1,4 +1,4 @@
-![Customer Churn Visualization](images/cutomer_churn_visualise.jpg)
+![Customer Churn Visualization](images/customer_churn_visualise.jpg)
 
 # Lloyds Customer Churn Prediction
 
@@ -188,6 +188,7 @@ Aspiring Data Analyst – SQL & BI
 - 🔗 https://github.com/AhmadReza1098  
 
 Feel free to use or adapt this project as part of your analytics portfolio.
+
 
 
 
