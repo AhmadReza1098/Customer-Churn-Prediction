@@ -1,3 +1,5 @@
+![Customer Churn Visualization](images/cutomer_churn_visualise.jpg)
+
 # Lloyds Customer Churn Prediction
 
 Building a "High-Recall Safety Net" to proactively identify at-risk bank customers before they leave.
@@ -186,6 +188,7 @@ Aspiring Data Analyst – SQL & BI
 - 🔗 https://github.com/AhmadReza1098  
 
 Feel free to use or adapt this project as part of your analytics portfolio.
+
 
 
 
