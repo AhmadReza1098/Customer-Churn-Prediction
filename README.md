@@ -1,6 +1,6 @@
 # Lloyds Customer Churn Prediction
 
-**Building a "High-Recall Safety Net" to proactively identify at-risk bank customers before they leave.**
+Building a "High-Recall Safety Net" to proactively identify at-risk bank customers before they leave.
 
 ---
 
@@ -9,7 +9,7 @@
 - [Overview](#overview)  
 - [Business Problem](#business-problem)  
 - [Dataset](#dataset)  
-- [Tools & Technologies](#tech-Stack-&-Tools)  
+- [Tools & Technologies](#tools--technologies)  
 - [Project Structure](#project-structure)  
 - [Data Cleaning & Preparation](#data-cleaning--preparation)  
 - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)  
@@ -22,9 +22,10 @@
 
 ## Overview
 
-In the world of banking, "silent churn" is a massive problem. Customers often disengage gradually—logging in less, transacting less—before they finally close their account. By the time they leave, it's often too late to win them back.
+In the world of banking, "silent churn" is a massive problem. Customers often disengage gradually logging in less, transacting less before they finally close their account. By the time they leave, it's often too late to win them back.
 
-In this project, I didn't just build a model to predict churn; I built a **proactive safety net**. Instead of chasing "vanity metrics" like 99% accuracy (which often hides the truth in imbalanced data), I optimized this model for **Business Value**. My goal was to maximize **Recall**—ensuring the bank catches as many at-risk customers as possible, even if it means raising a few false alarms.
+In this project, I didn't just build a model to predict churn; I built a **proactive safety net**. Instead of chasing "vanity metrics" like 99% accuracy (which often hides the truth in imbalanced data), I optimized this model for **Business Value**. My goal was to maximize **Recall** ensuring the bank catches as many at-risk customers as possible, even if it means raising a few false alarms.
+
 ---
 
 ## Business Problem
@@ -35,7 +36,7 @@ SmartBank, a subsidiary of Lloyds Banking Group, is facing increasing customer c
 - Where **discounts** and **stock levels** are not aligned (e.g., high price but out of stock).  
 - How much **revenue is locked** in current inventory.  
 
-This project aims to:
+**This project aims to:**
 
 - Identify which customer segments (e.g. age groups, professions, small businesses) are at highest risk of churn, based on their demographics, product holdings, and engagement behaviour.
 - Understand behavioural and financial drivers of churn, such as declining transaction activity, reduced product usage, frequent complaints, or lower digital engagement with SmartBank channels.
@@ -60,7 +61,7 @@ Key columns (example):
 
 ---
 
-## 🛠️ Tech Stack & Tools
+## Tools & Technologies
 
 * **Language:** Python 3.9+
 * **Data Manipulation:** Pandas, NumPy
@@ -73,7 +74,7 @@ Key columns (example):
 
 ## Project Structure
 
-```text
+```
 Lloyds-Customer-Churn-Prediction/
 │
 ├── README.md                          
@@ -86,10 +87,8 @@ Lloyds-Customer-Churn-Prediction/
 │
 └── reports/
     └── Executive_Summary.pdf          
+```
 
-This structure follows common patterns used in Zepto inventory SQL portfolio projects.
-
----
 
 ## Data Cleaning & Preparation
 
@@ -131,7 +130,7 @@ Instead of just dumping model stats, I framed my analysis around three critical 
 - **The Insight:** Customers don't just disappear overnight. They disengage digitally first—logging in less frequently—weeks before they actually close their account.
 - ** Business Impact:** This "digital silence" is a massive opportunity for early intervention before the customer is gone for good.
 
-- ** Question 2: Are we losing our most valuable customers?**
+- **Question 2: Are we losing our most valuable customers?**
 - **Finding:** **Yes**, High-Value customers are highly volatile.
 Both `Avg_Spend` and `Total_Spend` ranked in the top 3 drivers of churn.  
 - **The Insight:** Counter-intuitively, the customers spending the most are often the most likely to leave. This suggests they are sensitive to service quality and likely have attractive offers from competitors.
@@ -149,15 +148,9 @@ A standard model achieved decent accuracy but missed nearly 90% of the actual ch
 
 1. **Clone the Repository**
    - Open your terminal and run:
-```bash
-     git clone [https://github.com/AhmadReza1098/Customer-Churn-Prediction]
-     ``
 2. **Install Dependencies**
    - Ensure you have Python 3.9+ installed.
    - Install the required libraries using pip:
-     ```bash
-     pip install -r requirements.txt
-     ```
 
 3. **Launch the Notebook**
    - Open Jupyter Notebook or Jupyter Lab:
@@ -193,5 +186,6 @@ Aspiring Data Analyst – SQL & BI
 - 🔗 https://github.com/AhmadReza1098  
 
 Feel free to use or adapt this project as part of your analytics portfolio.
+
 
 
